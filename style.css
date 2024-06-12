@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f7f4;
+}
+main {
+  width: 100%;
+  height: 100%;
+  /* background-color: blueviolet; */
+}
+#page1 {
+  width: 100%;
+  height: 100%;
+  /* background-color: brown; */
+}
+#page1 nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: chartreuse; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.3vw;
+}
+nav #nav-1 {
+  /* background-color: yellow; */
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav #nav-1 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9vw;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  /* font-family: "Source Serif 4", serif; */
+}
+nav #nav-2 {
+  width: 30%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav #nav-2 button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  padding: 1vw 1.5vw;
+  background-color: #0d0c22;
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+}
+nav #nav-2 button:nth-child(1) {
+  background-color: transparent;
+  color: #000;
+}
+nav img {
+  width: 100px;
+}
+
+#middle {
+  width: 100%;
+  height: calc(100% - 100px);
+  /* background-color: aqua; */
+  padding-top: 12.2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#middle h3 {
+  font-family: "Source Serif 4", serif;
+  font-weight: 600;
+  font-size: 1vw;
+  background-color: #ffcb9c;
+  padding: 1.2vh 1vw;
+  border-radius: 20px;
+}
+#middle h1{
+  font-family: "Source Serif 4", serif;
+  font-size: 5vw;
+  font-weight: 500;
+  text-align: center;
+  line-height: 5vw;
+  margin-top: 2vw;
+  color: #0D0C22;
+}
+
+#middle h4{
+  font-family: "Work Sans", sans-serif;
+  margin-top: 1.9vw;
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+#middle button{
+  font-family: "Work Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  padding: 1.2vw 1.2vw;
+  background-color: #0d0c22;
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  margin-top: 2vw;
+}
